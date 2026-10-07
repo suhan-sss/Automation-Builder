@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/lib/*": ["./lib/*"],
+      "@/components/*": ["./components/*"],
+      "@/data/*": ["./data/*"]
+    },
+    "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "es2020",
+    "allowJs": true,
+    "checkJs": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": false,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["**/*.js", "**/*.jsx", "**/*.json"],
+  "exclude": ["node_modules", ".next", "out"]
+}
